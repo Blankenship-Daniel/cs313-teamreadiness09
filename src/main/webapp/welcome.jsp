@@ -13,6 +13,6 @@
     </head>
     <body>
         <h1>Welcome ${username}</h1>
-        <a href="/TeamReadiness09/Logout">Logout</a>
+        <a href="Logout">Logout</a>
     </body>
 </html>

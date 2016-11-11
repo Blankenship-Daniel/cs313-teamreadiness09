@@ -44,9 +44,9 @@ public class Login extends HttpServlet {
         if (this.username.equals(user) && this.password.equals(pass)) {
             HttpSession session = request.getSession(true);
             session.setAttribute("username", user);
-            response.sendRedirect("/TeamReadiness09/welcome.jsp");
+            response.sendRedirect("welcome.jsp");
         } else {
-            response.sendRedirect("/TeamReadiness09/incorrectLogin.jsp");
+            response.sendRedirect("incorrectLogin.jsp");
         }
     }
 
